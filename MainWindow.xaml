@@ -7,10 +7,10 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <ListBox x:Name="tanuloListBox" Grid.Row="0" Margin="10"/>
-        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
-            <Button Content="Törlés" Click="Torles_Click" Margin="5"/>
-            <Button Content="Állomány mentése" Click="Mentes_Click" Margin="5"/>
+        <ListBox x:Name="tanuloListBox" Grid.Row="0" Margin="23,25,471,45" Grid.RowSpan="2"/>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="77,55,525,15">
+            <Button Content="Törlés" Click="Torles_Click" RenderTransformOrigin="-7.24,0.577"/>
+            <Button Content="Állomány mentése" Click="Mentes_Click" Margin="5" RenderTransformOrigin="1.467,1.242"/>
         </StackPanel>
     </Grid>
 </Window>
